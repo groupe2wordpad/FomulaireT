@@ -34,7 +34,7 @@ def init_db():
 
 @app.route('/')  # recuperer le formulaire 
 def form():
-    return render_template("form.html")
+    return render_template("form.HTML")
 
 # traiter les données recu par le formulaire
 
@@ -66,7 +66,7 @@ def submit():
 
 @app.route('/thankyou')
 def thankyou():
-    return render_template("thankyou.html")
+    return render_template("thankyou.HTML")
 
 # Initialisation de la base de données au démarrage
 init_db()
